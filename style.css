@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 200px;
+  background-image: url('https://img.icons8.com/emoji/344/school-emoji.png');
+  background-color: #FFE4E1;
+  background-size: 40vh;
+  background-position: center top 163px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 100px;
+  height: 200px;
+}
+fieldset {
+  border: none;
+  text-align: center;
+  display: block;
+}
+fieldset label {
+  color: black;
+  line-height: 46px;
+}
+
+fieldset .campo {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.botao {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 2.25rem;
+  border-radius: 3.25em;
+  background-color: pink;
+  color: #051933;
+  text-align: center center;
+}
+.botao:hover {
+  background-color: #c3ffd5;
+}
+.page-title {
+  color:#000000;
+  margin: 0 0 20px;
+}
+
+.page-subtitle {
+  color:#000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 100pxmax ;
+  max-width: 100%
+  margin: 10px auto;
+  display: block;
+};
+
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
